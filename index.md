@@ -1,4 +1,4 @@
-# Kia ora ao!
+# Hello world!
 ```r
 # square one
 confused_cat <- image_read("https://media.discordapp.net/attachments/686807262773510168/907591046609928212/IMG_5815.png") %>%
