@@ -1,5 +1,5 @@
 # Hello world!
-```r
+```R
 # square one
 confused_cat <- image_read("https://media.discordapp.net/attachments/686807262773510168/907591046609928212/IMG_5815.png") %>%
   image_scale(0)
