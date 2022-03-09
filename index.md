@@ -1,72 +1,28 @@
 # Hello world!
 ```R
-# square one
-confused_cat <- image_read("https://media.discordapp.net/attachments/686807262773510168/907591046609928212/IMG_5815.png") %>%
-  image_scale(0)
+library(magick)
 
-#square two
-stats_text <- image_blank(width = 500, 
-                          height = 500, 
-                          color = "#000000") %>%
-  image_annotate(text = "James",
-                 color = "#FFFFFF",
-                 size = 80,
-                 font = "Impact",
-                 gravity = "center")
+img_panel1 <- image_read("https://media.discordapp.net/attachments/686807262773510168/907591046609928212/IMG_5815.png")
+img_panel2 <- image_read("https://media.discordapp.net/attachments/686807262773510168/907591046609928212/IMG_5815.png")
+img_panel3 <- image_read("https://media.discordapp.net/attachments/686807262773510168/907591046609928212/IMG_5815.png")
 
-# square three
-happy_cat <- image_read("https://media.discordapp.net/attachments/686807262773510168/907591046609928212/IMG_5815.png") %>%
-  image_scale(0)
+blank_Panel <- image_blank(width = 250, height = 300, color = "#FFFFFF")
 
-# square four
-ml_text <- image_blank(width = 500, 
-                       height = 500, 
-                       color = "#000000") %>%
-  image_annotate(text = "James",
-                 color = "#FFFFFF",
-                 size = 80,
-                 font = "Impact",
-                 gravity = "center")
-# square five 
-sleepy_cat <- image_read("https://media.discordapp.net/attachments/686807262773510168/907591046609928212/IMG_5815.png") %>%
-  image_scale(0)
-  
-  
-# square six
-cs_text <- image_blank(width = 500, 
-                       height = 500, 
-                       color = "#000000") %>%
-    image_annotate(text = "James",
-                 color = "#FFFFFF",
-                 size = 80,
-                 font = "Impact",
-                 gravity = "center")
+text_panel1 <- image_annotate(blank_Panel, color = "#000000", text = "James", size = 50, gravity = "center")
+text_panel2 <- image_annotate(blank_Panel, color = "#000000", text = "James", size = 50, gravity = "center")
+text_panel3 <- image_annotate(blank_Panel, color = "#000000", text = "James", size = 50, gravity = "center")
 
-#resizing james
-james1 <- image_resize(confused_cat, "500x500!")
-james2 <- image_resize(happy_cat, "500x500!")
-james3 <- image_resize(sleepy_cat, "500x500!")
+combine_panel1 <-  c(image_resize(img_panel1, "250x300!"), text_panel1) %>%
+                                image_append() 
+combine_panel2 <- c(image_resize(img_panel2, "250x300!"), text_panel2) %>%
+                              image_append() 
+combine_panel3 <- c(image_resize(img_panel3, "250x300!"), text_panel3) %>%
+                                image_append() 
 
+final <- c(combine_panel1, combine_panel2, combine_panel3) %>%
+                                image_append(stack = TRUE) 
+final
 
+image_write(final, "saves/my_meme.png")
 
-
-
-# making each row
-
-# first using the approach we used above
-cat_vector <- c(james1, stats_text)
-top_row <- image_append(cat_vector)
-
-# second using a different approach
-bottom_row <- image_append(c(james2, ml_text))
-
-# third row
-third_row <- image_append(c(james3, cs_text))
-
-# making the whole thing!
-
-# using another approach
-c(top_row, bottom_row, third_row) %>%
-  image_append(stack = TRUE) %>%
-  image_scale(800)
 ```
