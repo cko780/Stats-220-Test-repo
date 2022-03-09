@@ -1,6 +1,7 @@
 # stats220
 A repo for all my work
-pls no steal
+pls no steal \n
+I like this site https://youtu.be/lpiB2wMc49g
 
 # Un-ordered lists
 * Yes
