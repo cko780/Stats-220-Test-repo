@@ -1,6 +1,6 @@
 # stats220
-A repo for all my work
-pls no steal \n
+A repo for all my work  
+pls no steal  
 I like this site https://youtu.be/lpiB2wMc49g
 
 # Un-ordered lists
