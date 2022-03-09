@@ -2,7 +2,17 @@
 A repo for all my work
 pls no steal
 
-# Test 1
-## Test 2
+# Un-ordered lists
+* Yes
+* No
+* Maybe
+
+## Ordered lists
+1. one
+2. two
+3. three
+
 ### Test 3
+*Yes*
+**yes**
 
