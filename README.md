@@ -1,4 +1,4 @@
-# Stats-220-repo
+# stats220
 
 # Test 1
 ## Test 2
