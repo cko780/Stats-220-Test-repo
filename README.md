@@ -1,4 +1,4 @@
-# Stats-220-Test-repo
+# Stats-220-repo
 
 # Test 1
 ## Test 2
