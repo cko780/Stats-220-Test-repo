@@ -1,5 +1,5 @@
 # Hello world!
-![]("https://github.com/cko780/stats220/blob/241ad96de82416705b6230920f3fe04a957f872b/my_meme.png")
+![]("my_meme.png")
 ```R
 library(magick)
 
