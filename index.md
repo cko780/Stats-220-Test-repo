@@ -1,5 +1,5 @@
 # Hello world!
-![]("my_meme.png")
+![](my_meme.png)
 ```R
 library(magick)
 
