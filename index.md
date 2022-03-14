@@ -1,4 +1,5 @@
 # Assignment 1
+## The meme itself
 ![](my_meme.png)
 ## Motivation 
 The meme is extremely rare, not seen before in **any** NFT market including Opensea. The inspiration and motivation behind this *exotic* meme is James. The thought simply came, like James existence. "It must be carefully hand crafted, measured down the to the micrometer and aged perfectly," is what I thought upon summoning this meme. The summon ritual to procure this meme was **no joke**. I had to sacrifice two functional members to gather the *ingredients* for this, you cannot even fathom the **steps** taken to gather these exquisite materials. 
