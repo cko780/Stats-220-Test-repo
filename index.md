@@ -1,7 +1,7 @@
 # Assignment 1
 ![](my_meme.png)
 ## Motivation 
-The meme is extremely rare, not seen before in **any** NFT market including Opensea. The inspiration and motivation behind this *exotic* meme is James.
+The meme is extremely rare, not seen before in **any** NFT market including Opensea. The inspiration and motivation behind this *exotic* meme is James. The thought simply came, like James existence. "It must be carefully hand crafted, measured down the to the micrometer and aged perfectly," is what I thought upon summoning this meme. 
 
 
 ```R
