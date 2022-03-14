@@ -1,5 +1,9 @@
-# Hello world!
+# Assignment 1
 ![](my_meme.png)
+## Motivation 
+The meme is extremely rare, not seen before in **any** NFT market including Opensea. The inspiration and motivation behind this *exotic* meme is James.
+
+
 ```R
 library(magick)
 
