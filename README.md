@@ -11,9 +11,9 @@ this is my waifu ![](https://github.com/cko780/stats220/blob/bc1ca9969397db4117a
 * Maybe
 
 ## Ordered lists
-1. one
-2. two
-3. three
+*one
+*two
+*three
 
 ### Test 3
 *Yes*
